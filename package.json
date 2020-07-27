@@ -1,35 +1,35 @@
 {
-  "name": "Jenkins-explore",
-  "version": "1.0.0",
-  "description": "Explore jenkins",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha ./test/* --exit",
-    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{json,js,ts}\"",
-    "format:check": "prettier --ignore-path ./.gitignore --check \"./**/*.{json,js,ts}\"",
-    "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
-    "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/datnt95/Jenkins-explore.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/datnt95/Jenkins-explore/issues"
-  },
-  "homepage": "https://github.com/datnt95/Jenkins-explore#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "eslint": "^7.5.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "mocha": "^8.0.1",
-    "prettier": "^2.0.5",
-    "supertest": "^4.0.2"
-  }
+    "name": "Jenkins-explore",
+    "version": "1.0.0",
+    "description": "Explore jenkins",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha ./test/* --exit",
+        "format": "prettier --write \"./**/*.{json,js,ts}\"",
+        "format:check": "prettier --check \"./**/*.{json,js,ts}\"",
+        "lint": "eslint --fix \"./**/*.{js,ts}\"",
+        "lint:check": "eslint --quiet \"./**/*.{js,ts}\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/datnt95/Jenkins-explore.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/datnt95/Jenkins-explore/issues"
+    },
+    "homepage": "https://github.com/datnt95/Jenkins-explore#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "eslint": "^7.5.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-import": "^2.22.0",
+        "mocha": "^8.0.1",
+        "prettier": "^2.0.5",
+        "supertest": "^4.0.2"
+    }
 }
